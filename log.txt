@@ -1,0 +1,279 @@
+####################################################################################################
+human: 
+ai: Hi, my name is Dasha, I'm here to assist you with finding and booking a flight. First, could you tell me which city and state you're traveling to, please?
+[
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99965,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 13
+    },
+    "factType": "city",
+    "data": {
+      "value": "New York city"
+    }
+  },
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99998,
+    "likelihood": 1,
+    "location": {
+      "start": 14,
+      "end": 28
+    },
+    "factType": "state",
+    "data": {
+      "value": "New York state"
+    }
+  }
+]
+human: new york city new york state
+ai: That's nice! New York city is a beautiful place! Ummm... Whats the review you want the flight to have?
+[
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.91491,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 4
+    },
+    "factType": "number_value",
+    "data": {
+      "value": "5",
+      "tag": "stars"
+    }
+  }
+]
+human: five star
+ai: Fantastic, I got that! 5 it is! Now, could you tell me how many people you said are flying with you?
+[
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.97793,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 4
+    },
+    "factType": "number_value",
+    "data": {
+      "value": "5",
+      "tag": "people"
+    }
+  }
+]
+human: five people
+ai: You said 5, is that right?
+[
+  {
+    "type": "Intent",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99561,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: Yes.
+ai: Just a couple more questions so I could ensure I pick the best flight for you so please bear with me. Could you give me the date you had to like to board in?
+[
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99997,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 8
+    },
+    "factType": "month",
+    "data": {
+      "value": "December"
+    }
+  },
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99877,
+    "likelihood": 1,
+    "location": {
+      "start": 9,
+      "end": 11
+    },
+    "factType": "number_value",
+    "data": {
+      "value": "20",
+      "tag": "date"
+    }
+  }
+]
+human: december 20
+ai: Alrighty, I'm setting the date to December 20 , did I get that right?
+[
+  {
+    "type": "Intent",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99803,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: yes
+ai: Now, could you tell me when the return date should be?
+[
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99998,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 7
+    },
+    "factType": "month",
+    "data": {
+      "value": "January"
+    }
+  },
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99904,
+    "likelihood": 1,
+    "location": {
+      "start": 8,
+      "end": 10
+    },
+    "factType": "number_value",
+    "data": {
+      "value": "20",
+      "tag": "date"
+    }
+  }
+]
+human: January 20
+ai: Awesome, so just to make sure, the return date is January 20 , am I rigth?
+[
+  {
+    "type": "Intent",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99561,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: Yes.
+ai:  is fascinating! Now, would you require a drink or free Wi-Fi to be present at the in the plane
+[
+  {
+    "type": "Data",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.9986,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 11
+    },
+    "factType": "free",
+    "data": {
+      "value": "free Wi-Fi"
+    }
+  }
+]
+human: Free Wi-Fi.
+ai: Sounds like a plan, I'll look for a flight that has free Wi-Fi. Let's figure out the pricing you're comfortable with. Would you like the flight to be economy, business or first class?
+[]
+human: business
+ai: Sorry, the connection dropped for a second. Could you say that again?
+[
+  {
+    "type": "Intent",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.97605,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "business_class",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: Business class.
+ai: To review your requirements, you want to find a business flight in New York city , the seating would be for 5, the flight will have 5 stars, the check-in date would be December 20, and the return date would beJanuary 20. Is that right?
+[
+  {
+    "type": "Intent",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99803,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: yes
+ai: Awesome, I found two flights that perfectly match your requirements. The first one is Hello flight and the second one is Sunflower. Which one would you like more about?
+[
+  {
+    "type": "Intent",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99604,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "sunflower",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: Sunflower
+ai: This flight costs 900 dollars per person and it serves free food and has free wifi. Would you like to book this one or hear more about the Hello flight?
+[
+  {
+    "type": "Intent",
+    "skill": "71a8603e98adf3c71cd597735fd65923:v2",
+    "weight": 0.99916,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "book",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: book this
+ai: Perfect, the seats for the flight has been booked! It was a pleasure helping you find the right flight. I'll send the booking confirmation and other information in a text message. Have a fantastic rest of the day. Bye!

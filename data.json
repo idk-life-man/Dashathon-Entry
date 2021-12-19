@@ -1,0 +1,475 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm",
+        "it is",
+        "that's right",
+        "that is right",
+        "uh huh",
+        "uh-huh"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "it's not",
+        "it isn't",
+        "isn't"
+      ]
+    },
+
+    "economy_flight": {
+      "includes": [
+        "I'd like to book a economy flight",
+        "something cheap",
+        "has a low price",
+        "low priced",
+        "cheap",
+        "economy",
+        "cheapest",
+        "I want the cheapest flight possible",
+        "book the cheapest flight you can find",
+        "let's go with the low price range",
+        "low"
+      ]
+    },
+
+    "business_class": {
+      "includes": [
+        "I'd like to book a business class seat",
+        "something not overly expensive",
+        "not too expensive",
+        "better than economy",
+        "medium priced",
+        "I want to stay at a hotel that is medium priced",
+        "I don't want to stay at an expensive hotel",
+        "business class",
+        "recliner seat",
+        "let's go with the medium price range"
+      ]
+    },
+
+    "first_class": {
+      "includes": [
+        "I'd like to book an expensive seat",
+        "something expensive",
+        "has an expensicve price",
+        "expensive high range",
+        "expensive",
+        "most expensive",
+        "luxury",
+        "I want the most expensive flight possible",
+        "book the most expensive seat you can find",
+        "book the most luxurious hotel you can find",
+        "luxurious",
+        "let's go with the high price range",
+        "high",
+        "high price range"
+      ]
+    },
+
+    "cost_doesnt_matter": {
+      "includes": [
+        "cost doesn't matter",
+        "don't care",
+        "cost doesn't",
+        "no matter the cost",
+        "I don't care about the price",
+        "don't care about the pricing",
+        "don't care about the prices",
+        "price isn't a deal breaker",
+        "not a deal breaker",
+        "isn't a deal breaker",
+        "whatever price range",
+        "the price range can be whatever",
+        "I just want whatever hotel is available",
+        "I don't care",
+        "whatever hotel is available"
+      ]
+    },
+
+    "Franlin": {
+      "includes": [
+        "Franlin",
+        "Franlin Airways",
+        "resort",
+        "Franlin",
+        "I wanna hear more about the Franlin Airlines",
+        "I wanna know more about the Franlin Airways",
+        "tell me more about the Franlin Airways",
+        "the Franlin one"
+      ]
+    },
+
+    "garfield_hotel": {
+      "includes": [
+        "garfield airlines",
+        "garfield one",
+        "I wanna hear more about the garfierld airways",
+        "I wanna know more about the garfield airlines",
+        "tell me more about the garfield airliness",
+        "the garfield one"
+      ]
+    },
+
+    "velvet": {
+      "includes": [
+        "velvet",
+        "velvet airways",
+        "great velvet",
+        "great velvet airways",
+        "great velvet sounds good",
+        "I wanna hear more about the Great velvet airline",
+        "I wanna know more about the great velvet",
+        "tell me more about the Great velvet",
+        "great velvet airways",
+        "velvet airways"
+      ]
+    },
+
+    "sunflower": {
+      "includes": [
+        "sunflower",
+        "sunflower hotel",
+        "sunflower inn",
+        "I wanna hear more about the sunflower inn",
+        "I wanna know more about the sunflower",
+        "tell me more about the sunflower",
+        "sunflower in",
+        "sunflower inn sound nice"
+      ]
+    },
+
+    "rose": {
+      "includes": [
+        "dandelion",
+        "dandelion airways",
+        "dandelion airline",
+        "I wanna hear more about the dandelion airline",
+        "I wanna know more about the dandelion",
+        "tell me more about the dandelion",
+        "dandelion airline",
+        "dandelion airline sound nice"
+      ]
+    },
+
+    "book": {
+      "includes": [
+        "book",
+        "booking",
+        "I want to book this one",
+        "book this one",
+        "book this airline",
+        "proceed to booking",
+        "I wanna book now",
+        "book now"
+      ]
+    },
+
+
+    "bye": 
+    {
+      "includes":[
+        "bye",
+        "good bye",
+        "thanks bye",
+        "nevermind",
+        "forget about it",
+        "we're done",
+        "take it easy",
+        "peace out",
+        "peace",
+        "that's it",
+        "I'm good",
+        "all good",
+        "that's all",
+        "no that's it"
+      ]
+    }
+   },
+
+  
+  "entities": 
+  {
+    "month":
+    {
+      "open_set": false,
+      "values": [
+        {
+          "value": "January"
+        },
+        {
+          "value": "February"
+        },
+        {
+          "value": "March"
+        },
+        {
+          "value": "April"
+        },
+        {
+          "value": "May"
+        },
+        {
+          "value": "June"
+        },
+        {
+          "value": "July"
+        },
+        {
+          "value": "August"
+        },
+        {
+          "value": "September"
+        },
+        {
+          "value": "October"
+        },
+        {
+          "value": "November"
+        },
+        {
+          "value": "December"
+        }
+      ]
+    },
+    "city": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "New York city",
+          "synonyms": ["NYC"]
+        },
+        {
+          "value": "Miami"
+        },
+        {
+          "value": "Orlando"
+        },
+        {
+          "value": "Georgetown"
+        },
+        {
+          "value": "Washington DC",
+          "synonyms": ["DC"]
+        },
+        {
+          "value": "DC"
+        },
+        {
+          "value": "Seattle"
+        },
+        {
+          "value": "Phoenix"
+        },
+        {
+          "value": "Philadelphia"
+        },
+        {
+          "value": "Houston"
+        },
+        {
+          "value": "Chicago"
+        },
+        {
+          "value": "LA",
+          "synonyms": ["Los Angeles"]
+        },
+        {
+          "value": "Las Vegas"
+        },
+        {
+          "value": "Dallas"
+        },
+        {
+          "value": "Oklahoma City"
+        },
+        {
+          "value": "San Diego"
+        },
+        {
+          "value": "San Antonio"
+        }
+      ]
+    },
+    "state": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "New York state",
+          "synonyms": ["NY state"]
+        },
+        {
+          "value": "Washington state",
+          "synonyms": ["Washington"]
+        },
+        {
+          "value": "Texas"
+        },
+        {
+          "value": "Florida"
+        },
+        {
+          "value": "Californina",
+          "synonyms": ["CA"]
+        },
+        {
+          "value": "Ohio"
+        },
+        {
+          "value": "Kansas"
+        },
+        {
+          "value": "Oklahoma"
+        },
+        {
+          "value": "Philadelphia"
+        },
+        {
+          "value": "Houston"
+        },
+        {
+          "value": "Chicago"
+        },
+        {
+          "value": "Pennsylvania",
+          "synonyms": ["PA"]
+        }
+      ],
+      "includes": [
+        "I'd like to book a airline to (Miami)[city], (Florida)[state]",
+        "I'll take a (New York)[city] now",
+        "I'd like to book a hotel to (Los Angeles)[city], (Califonia)[state]",
+        "I'd like to book a hotel to (LA)[city], (CA)[state]",
+        "I'd like to book a hotel to (LA)[city], (California)[state]",
+        "I'd like to book a hotel to (Pittsburg)[city], (PA)[state]",
+        "I wanna find a hotel to (Seattle)[city], (Washington DC)[state]",
+        "I wanna find a hotel to (Orlando)[city], (Florida)[state]",
+        "I'm going to (Philadelphia)[city], (PA)[state]",
+        "I'm traveling to (Miami)[city], (Florida)[state]"
+      ]
+    },
+
+    "free": 
+    {
+      "open_set": true,
+      "values": [
+         {
+          "value": "free food",
+          "synonyms": ["free food", "food for free", "near the center"]
+         },   
+         {
+          "value": "free food and wi-fi",
+          "synonyms": ["free food and Wi-Fi", "food and Wi-Fi for free", "both", "free wi-fi and food"]
+         },       
+         {
+          "value": "free Wi-Fi",
+          "synonyms": ["free wifi", "free WiFi", "wi-fi for free"]
+         }
+       ],
+      "includes": [
+        "I want the hotel to have (free Wi-Fi)[free]",
+        "I wanna to have (wi-fi for free)[free]",
+        "(free Wi-Fi)[free] would be nice",
+        "I want the hotel to have (free food)[free]",
+        "I wanna to have (food for free)[free]",
+        "(free food)[free] would be nice",
+        "I want the hotel to have both (free food and wi-fi)[free]",
+        "I wanna to have (Wi-Fi and food for free)[free]",
+        "Having (free food and Wi-Fi)[free] would be nice",
+        "I wanna to have (both)[free]"
+      ]
+    },
+
+      "number_value": 
+      {
+        "open_set": true,
+        "values": [
+          {
+            "value": "1",
+            "synonyms": ["first", "1st", "the first", "the 1st", "one"]
+          },
+          {
+            "value": "2",
+            "synonyms": ["second", "2nd", "the second", "the 2nd", "two"]
+          },
+          {
+            "value": "3",
+            "synonyms": ["third", "3rd", "the third", "the 3rd", "three"]
+          },
+          {
+            "value": "4",
+            "synonyms": ["fourth", "4th", "the fourth", "the 4th", "four"]
+          },
+          {
+            "value": "5",
+            "synonyms": ["fifth", "5th", "the fifth", "the 5th", "five"]
+          },
+          {
+            "value": "6",
+            "synonyms": ["sixth", "6th", "the sixth", "the 6th", "six"]
+          }
+        ],
+        "includes": [
+          "There's going to be (four)[number_value:people] people with me",
+          "just (one)[number_value:people] person",
+          "(two)[number_value:people] people",
+          "(four)[number_value:stars] stars",
+          "I want the hotel to have (five)[number_value:stars] stars",
+          "hotel to have (four)[number_value:stars] stars at least",
+          "There's going to be (two)[number_value:people] people traveling",
+          "I want the boarding date to be (July)[month] (fifth)[number_value:date]",
+          "I want the boarding date to be (January)[month] (the third)[number_value:date]",
+          "I want to check in to the hotel on (the 5th)[number_value:date] of (February)[month]",
+          "There's going to be just (3)[number_value:people] people traveling in total",
+          "(May)[month] (fifth)[number_value:date]",
+          "(the first)[number_value:date] of (February)[month]",
+          "I want the hotel to have (4)[number_value:stars] stars",
+          "The hotel needs to have at least (4)[number_value:stars] stars"
+        ]
+      }
+  }
+}
